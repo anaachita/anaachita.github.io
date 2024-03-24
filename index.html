@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <script>
+    fetch('head.html')
+      .then(response => response.text())
+      .then(data => {
+        document.head.innerHTML += data;
+      })
+      .catch(err => console.error('Failed to load head contents:', err));
+  </script>
+</head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class ="modal-title"> 
+              Is is it your car that pretty, is it really worth it?
+            </div>
+            <div class ="modal-content"> 
+              Decipher Your Ideal Ride: Unlock the Puzzle of Car Choices. Decode the subtle cues in paint, stickers, and style to find the perfect match. But tread carefully - consider the swift depreciation to ensure your choice stands the test of time.            </div>
+        </div>
+    </div> 
+
+      <div class="screen19-container">
+        <div class="screen19-screen19">
+          <div class="screen19-header">
+            <div class="screen19-logo" id="logo">
+              <img
+                alt="Vector8227"
+                src="public/external/logologo.png"
+                class="screen19-vector"
+              />
+              <!-- <img
+                alt="Line37531"
+                src="public/external/line37531-7hm5.svg"
+                class="screen19-line3"
+              />
+              <img
+                alt="Line47532"
+                src="public/external/line47532-spa.svg"
+                class="screen19-line4"
+              /> -->
+            </div>
+
+      
+            <div class="screen19-filters">
+              <div class="screen19-brand">
+                <span class="screen19-text"><span>Brand</span></span>
+                <select class="screen19-button" id="brandSelect">
+                  <option class="screen19-text02">
+                    <span>not really relevant</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>BMW</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Mercedes</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Lada</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Mitsubishi</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Fiat</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Citroen</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Opel</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Peugeot</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Alfa Romeo</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>Audi</span>
+                  </option>
+                </select>
+              </div>
+              <div class="screen19-prettiness">
+                <span class="screen19-text"><span>Prettiness</span></span>
+                <select class="screen19-button" id="prettinessSelect">
+                  <option class="screen19-text02">
+                    <span>is it really pretty</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>ugly</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>pretty</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>meh</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>dependes</span>
+                  </option>
+                  <option class="screen19-text02">
+                    <span>cute</span>
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="screen19-cars">
+            <div id="emptyState">
+              <img src="public/external/label_emptystate.png" alt="Empty State Illustration">
+              <!-- <p>No cars match the selected filters. Please try different filters.</p> -->
+          </div>      
+            <div class="screen19-alfaromeo33" data-brand="Alfa Romeo" data-prettiness="ugly">
+              <img
+                alt="IMG77232793"
+                src="public/external/img77232793-buqv-200h.png"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Alfa Romeo</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>33 Milano</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Ugly</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4000">New</div>
+                    <div data-price="3640">1min</div>
+                    <div data-price="3400">1y</div>
+                    <div data-price="3200">2y</div>
+                    <div data-price="2680">3y</div>
+                    <div data-price="2160">4y</div>
+                    <div data-price="1600">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4000€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Alfa Romeo" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/alfaromeo_alfetta.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Alfa Romeo</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Alfetta</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4500">New</div>
+                    <div data-price="4095">1min</div>
+                    <div data-price="3825">1y</div>
+                    <div data-price="3600">2y</div>
+                    <div data-price="3015">3y</div>
+                    <div data-price="2430">4y</div>
+                    <div data-price="1800">5y</div>
+                    <div data-price="15000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4500€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Alfa Romeo" data-prettiness="dependes">
+              <img
+                alt="IMG77232793"
+                src="public/external/alfaromeo_spider.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Alfa Romeo</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Spider</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Dependes</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="5050">New</div>
+                    <div data-price="4595">1min</div>
+                    <div data-price="5292">1y</div>
+                    <div data-price="4040">2y</div>
+                    <div data-price="3378">3y</div>
+                    <div data-price="2716">4y</div>
+                    <div data-price="2020">5y</div>
+                    <div data-price="30000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">5050€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Audi" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/audi90.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Audi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>90</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="5900">New</div>
+                    <div data-price="5369">1min</div>
+                    <div data-price="5015">1y</div>
+                    <div data-price="4720">2y</div>
+                    <div data-price="3953">3y</div>
+                    <div data-price="3182">4y</div>
+                    <div data-price="2360">5y</div>
+                    <div data-price="15000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">5900€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Audi" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/audi_quattro.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Audi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Quattro</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="6700">New</div>
+                    <div data-price="6093">1min</div>
+                    <div data-price="5695">1y</div>
+                    <div data-price="5360">2y</div>
+                    <div data-price="4501">3y</div>
+                    <div data-price="3632">4y</div>
+                    <div data-price="2680">5y</div>
+                    <div data-price="70000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">6700€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mercedes" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/mercedes230.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mercedes</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>230e</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="8400">New</div>
+                    <div data-price="7640">1min</div>
+                    <div data-price="7140">1y</div>
+                    <div data-price="6720">2y</div>
+                    <div data-price="5652">3y</div>
+                    <div data-price="4536">4y</div>
+                    <div data-price="3360">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">8400€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mercedes" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/mercedes250.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mercedes</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>250t</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="9200">New</div>
+                    <div data-price="8372">1min</div>
+                    <div data-price="7820">1y</div>
+                    <div data-price="7360">2y</div>
+                    <div data-price="6196">3y</div>
+                    <div data-price="4984">4y</div>
+                    <div data-price="3680">5y</div>
+                    <div data-price="25000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">9200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mercedes" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/mercedes500.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mercedes</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>500 sec</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="19300">New</div>
+                    <div data-price="17563">1min</div>
+                    <div data-price="16405">1y</div>
+                    <div data-price="15440">2y</div>
+                    <div data-price="12931">3y</div>
+                    <div data-price="10408">4y</div>
+                    <div data-price="7720">5y</div>
+                    <div data-price="50000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">19300€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mitsubishi" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/mitsubishi_cordia.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mitsubishi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Cordia</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="5300">New</div>
+                    <div data-price="4823">1min</div>
+                    <div data-price="4505">1y</div>
+                    <div data-price="4240">2y</div>
+                    <div data-price="3561">3y</div>
+                    <div data-price="2876">4y</div>
+                    <div data-price="2120">5y</div>
+                    <div data-price="10000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">5300€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mitsubishi" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/mitsubishi_colt.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mitsubishi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Colt gl1200</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3450">New</div>
+                    <div data-price="3139">1min</div>
+                    <div data-price="2930">1y</div>
+                    <div data-price="2760">2y</div>
+                    <div data-price="2310">3y</div>
+                    <div data-price="1860">4y</div>
+                    <div data-price="1380">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3450€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Mitsubishi" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/mitsubishi_galant.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Mitsubishi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Galanat</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3200">New</div>
+                    <div data-price="2912">1min</div>
+                    <div data-price="2720">1y</div>
+                    <div data-price="2560">2y</div>
+                    <div data-price="2144">3y</div>
+                    <div data-price="1728">4y</div>
+                    <div data-price="1280">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Opel" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/opel_corsa.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Opel</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Corsa Luxe</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3500">New</div>
+                    <div data-price="3185">1min</div>
+                    <div data-price="2975">1y</div>
+                    <div data-price="2800">2y</div>
+                    <div data-price="2355">3y</div>
+                    <div data-price="1910">4y</div>
+                    <div data-price="1400">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3500€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Opel" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/opel_corsa_gl.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Opel</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>Corsa gl</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3600">New</div>
+                    <div data-price="3276">1min</div>
+                    <div data-price="3060">1y</div>
+                    <div data-price="2880">2y</div>
+                    <div data-price="2412">3y</div>
+                    <div data-price="1944">4y</div>
+                    <div data-price="1440">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3600€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Peugeot" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/peugeot104.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Peugeot</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>104</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3200">New</div>
+                    <div data-price="2912">1min</div>
+                    <div data-price="2720">1y</div>
+                    <div data-price="2560">2y</div>
+                    <div data-price="2144">3y</div>
+                    <div data-price="1728">4y</div>
+                    <div data-price="1280">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Peugeot" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/peugeot104zl.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Peugeot</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>104zl coupe</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4200">New</div>
+                    <div data-price="3822">1min</div>
+                    <div data-price="3570">1y</div>
+                    <div data-price="3360">2y</div>
+                    <div data-price="2826">3y</div>
+                    <div data-price="2292">4y</div>
+                    <div data-price="1680">5y</div>
+                    <div data-price="8000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Peugeot" data-prettiness="ugly">
+              <img
+                alt="IMG77232793"
+                src="public/external/peugeot205.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Peugeot</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>205gti</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Ugly</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4000">New</div>
+                    <div data-price="3640">1min</div>
+                    <div data-price="3400">1y</div>
+                    <div data-price="3200">2y</div>
+                    <div data-price="2680">3y</div>
+                    <div data-price="2160">4y</div>
+                    <div data-price="1600">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4000€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="BMW" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/bmw320.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>BMW</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>320i</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="6800">New</div>
+                    <div data-price="6188">1min</div>
+                    <div data-price="5780">1y</div>
+                    <div data-price="5440">2y</div>
+                    <div data-price="4576">3y</div>
+                    <div data-price="3704">4y</div>
+                    <div data-price="2720">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">6800€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="BMW" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/bmw325.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>BMW</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>325</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="7300">New</div>
+                    <div data-price="6643">1min</div>
+                    <div data-price="6205">1y</div>
+                    <div data-price="5840">2y</div>
+                    <div data-price="4911">3y</div>
+                    <div data-price="3988">4y</div>
+                    <div data-price="2920">5y</div>
+                    <div data-price="25000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">7300€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="BMW" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/bmw520.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>BMW</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>520i</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="7200">New</div>
+                    <div data-price="6552">1min</div>
+                    <div data-price="6120">1y</div>
+                    <div data-price="5760">2y</div>
+                    <div data-price="4848">3y</div>
+                    <div data-price="3924">4y</div>
+                    <div data-price="2880">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">7200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="BMW" data-prettiness="pretty">
+              <img
+                alt="IMG77232793"
+                src="public/external/bmw635.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>BMW</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>635 coupe</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Pretty</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="13600">New</div>
+                    <div data-price="12376">1min</div>
+                    <div data-price="11560">1y</div>
+                    <div data-price="10880">2y</div>
+                    <div data-price="9144">3y</div>
+                    <div data-price="7368">4y</div>
+                    <div data-price="5440">5y</div>
+                    <div data-price="50000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">13600€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="BMW" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/bmw728.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>BMW</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>738i</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="9000">New</div>
+                    <div data-price="8190">1min</div>
+                    <div data-price="7650">1y</div>
+                    <div data-price="7200">2y</div>
+                    <div data-price="6051">3y</div>
+                    <div data-price="4860">4y</div>
+                    <div data-price="3600">5y</div>
+                    <div data-price="20000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">9000€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Citroen" data-prettiness="dependes">
+              <img
+                alt="IMG77232793"
+                src="public/external/citroen_2cv.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Citroen</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>2cv 6</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Dependes</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="2000">New</div>
+                    <div data-price="1820">1min</div>
+                    <div data-price="1700">1y</div>
+                    <div data-price="1600">2y</div>
+                    <div data-price="1340">3y</div>
+                    <div data-price="1080">4y</div>
+                    <div data-price="800">5y</div>
+                    <div data-price="10000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">2000€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Citroen" data-prettiness="ugly">
+              <img
+                alt="IMG77232793"
+                src="public/external/citroen_extren.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Citroen</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>ax tre</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Ugly</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="3600">New</div>
+                    <div data-price="3276">1min</div>
+                    <div data-price="3060">1y</div>
+                    <div data-price="2880">2y</div>
+                    <div data-price="2412">3y</div>
+                    <div data-price="1944">4y</div>
+                    <div data-price="1440">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">3600€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Citroen" data-prettiness="dependes">
+              <img
+                alt="IMG77232793"
+                src="public/external/citroen_axel.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Citroen</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>axel</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Dependes</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4900">New</div>
+                    <div data-price="4451">1min</div>
+                    <div data-price="4165">1y</div>
+                    <div data-price="3920">2y</div>
+                    <div data-price="3293">3y</div>
+                    <div data-price="2668">4y</div>
+                    <div data-price="1960">5y</div>
+                    <div data-price="6000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4900€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Citroen" data-prettiness="dependes">
+              <img
+                alt="IMG77232793"
+                src="public/external/citroen_dyane.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Citroen</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>dyane</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Dependes</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4600">New</div>
+                    <div data-price="4186">1min</div>
+                    <div data-price="3910">1y</div>
+                    <div data-price="3680">2y</div>
+                    <div data-price="3082">3y</div>
+                    <div data-price="2484">4y</div>
+                    <div data-price="1840">5y</div>
+                    <div data-price="10000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4600€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Fiat" data-prettiness="ugly">
+              <img
+                alt="IMG77232793"
+                src="public/external/fiat_croma.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Fiat</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>croma</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Ugly</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="2200">New</div>
+                    <div data-price="2002">1min</div>
+                    <div data-price="1870">1y</div>
+                    <div data-price="1760">2y</div>
+                    <div data-price="1474">3y</div>
+                    <div data-price="1188">4y</div>
+                    <div data-price="880">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">2200€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Fiat" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/fiat_panda.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Fiat</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>panda</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="4300">New</div>
+                    <div data-price="3913">1min</div>
+                    <div data-price="3655">1y</div>
+                    <div data-price="3440">2y</div>
+                    <div data-price="2891">3y</div>
+                    <div data-price="2342">4y</div>
+                    <div data-price="1720">5y</div>
+                    <div data-price="10000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">4300€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Fiat" data-prettiness="ugly">
+              <img
+                alt="IMG77232793"
+                src="public/external/fiat_uno.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Fiat</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>uno 45</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Ugly</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="2600">New</div>
+                    <div data-price="2366">1min</div>
+                    <div data-price="2210">1y</div>
+                    <div data-price="2080">2y</div>
+                    <div data-price="1742">3y</div>
+                    <div data-price="1404">4y</div>
+                    <div data-price="1040">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">2600€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Lada" data-prettiness="cute">
+              <img
+                alt="IMG77232793"
+                src="public/external/lada1500.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Lada</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>1500s</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Cute</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="1300">New</div>
+                    <div data-price="1183">1min</div>
+                    <div data-price="1105">1y</div>
+                    <div data-price="1040">2y</div>
+                    <div data-price="873">3y</div>
+                    <div data-price="706">4y</div>
+                    <div data-price="520">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">1300€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Lada" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/lada2104.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Lada</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>2104 combi</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="1900">New</div>
+                    <div data-price="1731">1min</div>
+                    <div data-price="1615">1y</div>
+                    <div data-price="1520">2y</div>
+                    <div data-price="1273">3y</div>
+                    <div data-price="1026">4y</div>
+                    <div data-price="760">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">1900€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen19-alfaromeo33" data-brand="Lada" data-prettiness="meh">
+              <img
+                alt="IMG77232793"
+                src="public/external/lada2105.jpg"
+                class="screen19-img77232"
+              />
+              <div class="screen19-chartfilter">
+                <div class="screen19-filters1">
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new">Brand:</span>
+                    <span class="screen19-text"><span>Lada</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Model:</span></span>
+                    <span class="screen19-text"><span>2105n</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text-new"><span>Year:</span></span>
+                    <span class="screen19-text"><span>1983</span></span>
+                  </div>
+                  <div class="screen19-field-name">
+                    <span class="screen19-text">
+                      <span>Prettiness:</span>
+                    </span>
+                    <span class="screen19-text"><span>Meh</span></span>
+                  </div>
+                </div>
+                <div class="chart">
+                  <svg viewBox="-50 0 2100 1000" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 583.333c57.143 7.544 171.429 21.05 285.714 37.717C400 637.716 457.143 649.21 571.43 666.667c114.285 17.456 171.428 25 285.714 41.666L1142.857 750c114.286 16.667 171.429 15.476 285.714 41.667 114.286 26.19 171.429 214.285 285.715 89.285 114.285-125 228.571-571.428 285.714-714.285V1000H0Z"/>
+                    <circle class="active" cx="20" cy="583.333" r="50"/>
+                    <circle cx="285.714" cy="621.05" r="50"/>
+                    <circle cx="571.429" cy="666.667" r="50"/>
+                    <circle cx="857.143" cy="708.333" r="50"/>
+                    <circle cx="1142.857" cy="750" r="50"/>
+                    <circle cx="1428.571" cy="791.667" r="50"/>
+                    <circle cx="1714.286" cy="880.952" r="50"/>
+                    <circle cx="1980" cy="166.667" r="50"/>
+                  </svg>
+                  <div class="chart-captions">
+                    <div data-price="1700">New</div>
+                    <div data-price="1547">1min</div>
+                    <div data-price="1445">1y</div>
+                    <div data-price="1360">2y</div>
+                    <div data-price="1141">3y</div>
+                    <div data-price="920">4y</div>
+                    <div data-price="680">5y</div>
+                    <div data-price="5000">Now</div>
+                  </div>
+                  <input class="chart-range" type="range" min="0" max="7" step="1" value="0" />
+                  <div class="price-box">
+                    Price = <span class="price">1700€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+            const brandSelect = document.getElementById('brandSelect');
+            const prettinessSelect = document.getElementById('prettinessSelect');
+            const emptyState = document.getElementById('emptyState');
+
+            brandSelect.addEventListener('change', filterCars);
+            prettinessSelect.addEventListener('change', filterCars);
+
+            function filterCars() {
+                const selectedBrand = brandSelect.value.toLowerCase();
+                const selectedPrettiness = prettinessSelect.value.toLowerCase();
+                const cars = document.querySelectorAll('.screen19-alfaromeo33'); // Assumes all car divs have this class
+                let hasMatch = false;
+
+                cars.forEach(function(car) {
+                    const carBrand = car.dataset.brand.toLowerCase(); // Assuming a data-brand attribute on each car div
+                    const carPrettiness = car.dataset.prettiness.toLowerCase(); // Assuming a data-prettiness attribute
+
+                    if ((selectedBrand === "not really relevant" || carBrand === selectedBrand) &&
+                        (selectedPrettiness === "is it really pretty" || carPrettiness === selectedPrettiness)) {
+                        car.style.display = '';
+                        hasMatch = true;
+                    } else {
+                        car.style.display = 'none';
+                    }
+                });
+
+                if (!hasMatch) {
+                    emptyState.style.display = 'block';
+                } else {
+                    emptyState.style.display = 'none';
+                }
+            }
+        });
+    </script>
+  </body>
+</html>
